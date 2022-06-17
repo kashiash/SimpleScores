@@ -13,6 +13,9 @@
 		A3FA060C285CF9B4003EC5DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA060B285CF9B4003EC5DA /* Preview Assets.xcassets */; };
 		A3FA0613285CFA12003EC5DA /* ColorChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA0612285CFA12003EC5DA /* ColorChoice.swift */; };
 		A3FA0615285CFA54003EC5DA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA0614285CFA54003EC5DA /* Score.swift */; };
+		A3FA0618285CFE90003EC5DA /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA0616285CFE8F003EC5DA /* FileManager-DocumentsDirectory.swift */; };
+		A3FA0619285CFE90003EC5DA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA0617285CFE8F003EC5DA /* ViewModel.swift */; };
+		A3FA061B285CFF8C003EC5DA /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA061A285CFF8C003EC5DA /* ScoreRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		A3FA060B285CF9B4003EC5DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A3FA0612285CFA12003EC5DA /* ColorChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChoice.swift; sourceTree = "<group>"; };
 		A3FA0614285CFA54003EC5DA /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		A3FA0616285CFE8F003EC5DA /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		A3FA0617285CFE8F003EC5DA /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A3FA061A285CFF8C003EC5DA /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				A3FA0604285CF9AC003EC5DA /* SimpleScoresApp.swift */,
 				A3FA0606285CF9AC003EC5DA /* ContentView.swift */,
+				A3FA0616285CFE8F003EC5DA /* FileManager-DocumentsDirectory.swift */,
+				A3FA0617285CFE8F003EC5DA /* ViewModel.swift */,
+				A3FA061A285CFF8C003EC5DA /* ScoreRow.swift */,
 				A3FA0608285CF9B4003EC5DA /* Assets.xcassets */,
 				A3FA060A285CF9B4003EC5DA /* Preview Content */,
 				A3FA0612285CFA12003EC5DA /* ColorChoice.swift */,
@@ -144,8 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3FA0607285CF9AC003EC5DA /* ContentView.swift in Sources */,
+				A3FA0618285CFE90003EC5DA /* FileManager-DocumentsDirectory.swift in Sources */,
 				A3FA0613285CFA12003EC5DA /* ColorChoice.swift in Sources */,
+				A3FA061B285CFF8C003EC5DA /* ScoreRow.swift in Sources */,
 				A3FA0615285CFA54003EC5DA /* Score.swift in Sources */,
+				A3FA0619285CFE90003EC5DA /* ViewModel.swift in Sources */,
 				A3FA0605285CF9AC003EC5DA /* SimpleScoresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
