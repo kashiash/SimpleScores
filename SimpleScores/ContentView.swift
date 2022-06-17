@@ -26,6 +26,13 @@ struct ContentView: View {
             .listRowSeparator(.hidden)
         }
         .toolbar{
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button(action: model.reset){
+             
+                    Label ("Reset scores to 0",systemImage: "arrow.counterclockwise")
+                }
+                .disabled(model.items.isEmpty)
+            }
             ToolbarItem(placement: .navigationBarTrailing){
                 Button{
                     showingClearAlert = true
@@ -35,6 +42,12 @@ struct ContentView: View {
                 .disabled(model.items.isEmpty)
                            
             }
+        }
+        .alert("Delete all players?", isPresented: $showingClearAlert) {
+            Button("Delete", role: .destructive, action: model.deleteAll)
+            Button("Cancel", role: .cancel){}
+        } message: {
+            Text("This will remove all players and their scores")
         }
         .animation(.default, value: model.items)
         .navigationTitle("SimpleScores")
